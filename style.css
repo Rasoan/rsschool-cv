@@ -1,0 +1,135 @@
+/*позиционирование*/
+article {
+  width: 1024px;
+  background-color: white;
+  margin: auto;
+}
+
+.flex {
+  display: flex;
+  width: 1000px;
+  flex-wrap: wrap;
+  margin: auto;
+}
+
+.flex-item {
+  margin: 21px 20px 0 20px;
+}
+
+.item {
+  background-color: white;
+  width: 95%;
+  margin: 0px 5px 0px 18px;
+  padding: 20px 0;
+}
+
+.item_modifier {
+  margin: 35px 5px 60px 5px;
+  width: 600px;
+  padding: 0;
+}
+/**/
+body {
+  background: url(../images/background.jpg) no-repeat;
+  background-size: 100% 100%;
+  object-fit: cover;
+}
+
+
+
+h1 {
+  margin: 0;
+  padding: 20px 0 0 0;
+  text-align: center;
+  font-size: 30px;
+}
+
+p {
+  padding: 10px;
+  margin: 10px;
+  background-color: #f9f9f9;
+}
+
+.wrap-text {
+  position: relative;
+  margin-left: 30px;
+}
+
+.wrap-text::before {
+  content: " ";
+  background-image: url(../images/line.png);
+  background-size: 100% 100%;
+  position: absolute;
+  width: 2px;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.my-photo {
+  background-color: white;
+  height: 435px;
+  border: 0 solid black;
+  border-radius: 5px;
+  box-shadow: 0px 0px 8px 3px rgb(125, 125, 125);
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+}
+
+.my-photo img {
+  object-fit: cover;
+  padding: 0;
+  margin: 0;
+}
+
+figcaption {
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  padding: 0;
+  margin: 5px 0;
+}
+
+
+
+
+
+.contact-name,
+.summaru-name,
+.education-name,
+.skils-name {
+  position: relative;
+  padding: 0 0 0 35px;
+  padding: 4px 35px;
+  margin: 10px;
+}
+
+.contact-name::before,
+.summaru-name::before,
+.education-name::before,
+.skils-name::before {
+  content: " ";
+  background-size: contain;
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  top: 0;
+  left: 0;
+}
+
+.contact-name::before {
+  background-image: url(../images/tel.png);
+}
+
+.summaru-name::before {
+  background-image: url(../images/resum.png);
+}
+
+.education-name::before {
+  background-image: url(../images/education.png);
+}
+
+.skils-name::before {
+  background-image: url(../images/skills.png);
+}
