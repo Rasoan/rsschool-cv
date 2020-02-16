@@ -1,1 +1,1 @@
-https://Rasoan.github.io/rsschool-cv/cv
+https://rasoan.github.io/rsschool-cv/
